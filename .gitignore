@@ -1,6 +1,8 @@
 .vscode/
+.idea/
 .env/
 __pycache__/
+JDM/dataset/*
 *.pyc
 *.pyo
 *.pyd
