@@ -1,3 +1,4 @@
+
 import os
 import numpy as np
 import librosa
@@ -8,7 +9,7 @@ DURATION = 1.0
 SAMPLES = int(SAMPLE_RATE * DURATION)
 DATASET_PATH = "dataset"
 
-TARGET_WORD = "yes"
+TARGET_WORD = "jarvis"
 
 def load_audio(file_path):
     audio, _ = librosa.load(file_path, sr=SAMPLE_RATE)
