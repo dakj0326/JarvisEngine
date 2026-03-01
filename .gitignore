@@ -7,3 +7,4 @@ JDM/dataset/*
 *.pyo
 *.pyd
 *.log
+cmake-build-debug/
