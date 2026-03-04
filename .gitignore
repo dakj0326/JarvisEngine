@@ -2,6 +2,7 @@
 .idea/
 .env/
 __pycache__/
+JDM/dataset-google/*
 JDM/dataset/*
 *.pyc
 *.pyo

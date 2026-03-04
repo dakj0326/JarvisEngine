@@ -3,10 +3,10 @@ import time
 
 folder = "recordings"
 
-dest_jarvis = "dataset/jarvis"
+dest_jarvis = "dataset-google/jarvis"
 name_jarvis = "jarvis_"
 
-dest_similar = "dataset/jarvis_similar"
+dest_similar = "dataset-google/jarvis_similar"
 name_similar = "jarvis_similar_"
 
 

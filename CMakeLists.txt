@@ -18,9 +18,10 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(asio)
 
-# Create reusable interface target for Asio
-add_library(asio_interface INTERFACE
-        JDM/ESPR/ESP/main.cpp)
+# -------------------------------------------------
+# Create reusable INTERFACE target for Asio
+# -------------------------------------------------
+add_library(asio_interface INTERFACE)
 
 target_include_directories(asio_interface INTERFACE
         ${asio_SOURCE_DIR}/asio/include
@@ -50,29 +51,15 @@ target_include_directories(jarvisCore PRIVATE
 target_link_libraries(jarvisCore PRIVATE asio_interface)
 
 # -------------------------------------------------
-# landmina executable
-# -------------------------------------------------
-add_executable(landmina
-)
-
-target_link_libraries(landmina PRIVATE asio_interface)
-
-# -------------------------------------------------
-# landmina-recorder executable
-# -------------------------------------------------
-add_executable(landmina-recorder
-        JDM/ESPR/ESP/main.cpp
-)
-
-target_link_libraries(landmina-recorder PRIVATE asio_interface)
-
-# -------------------------------------------------
-# ESPR executable
+# ESPR executable (ESP listener / recorder)
 # -------------------------------------------------
 add_executable(ESPR
         JDM/ESPR/main.cpp
-        JDM/ESPR/UDPHandler.h
         JDM/ESPR/UDPHandler.cpp
+)
+
+target_include_directories(ESPR PRIVATE
+        JDM/ESPR
 )
 
 target_link_libraries(ESPR PRIVATE asio_interface)

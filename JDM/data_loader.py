@@ -23,13 +23,16 @@ def load_audio(file_path):
     return audio
 
 def extract_mfcc(audio):
-    return mfcc(y=audio, sr=SAMPLE_RATE, n_mfcc=40).T
+    return mfcc(y=audio, sr=SAMPLE_RATE, n_mfcc=15).T
 
 def load_dataset(max_files_per_class=500):
     x = []
     y = []
 
     for folder in os.listdir(DATASET_PATH):
+        if folder == "test":
+            continue
+
         folder_path = os.path.join(DATASET_PATH, folder)
 
         if not os.path.isdir(folder_path):

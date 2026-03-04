@@ -3,8 +3,10 @@
 //
 
 #include <iostream>
+#include "audio.h"
 
-#include "UDPHandler.h"
+
 int main() {
-    std::cout << "JARVISWORKSPACE_AUDIO_H" << std::endl;
+    UDPHandler handler = UDPHandler();
+    handler.setUpStream(false, false, false);
 }

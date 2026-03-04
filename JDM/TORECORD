@@ -11,41 +11,41 @@ Jarvis
 
     Distance
     {
-        0/30 1m (Kjellberg)
+        30/30 1m (Kjellberg)
         0/30 1m (Svallfors)
         0/10 1m (Other)
 
-        0/30 2-3m (Kjellberg)
+        30/30 2-3m (Kjellberg)
         0/30 2-3m (Svallfors)
         0/10 2-3m (Other)
     }
 
     Other room
     {
-        0/25 (Kjellberg)
+        25/25 (Kjellberg)
         0/25 (Svallfors)
         0/8 (Other)
     }
 
     Voice variations
     {
-        0/20 whisper (Kjellberg)
+        20/20 whisper (Kjellberg)
         0/20 whisper (Svallfors)
         0/6 whisper (Other)
 
-        0/20 louder (Kjellberg)
+        20/20 louder (Kjellberg)
         0/20 louder (Svallfors)
         0/6 louder (Other)
 
-        0/12 fast (Kjellberg)
+        12/12 fast (Kjellberg)
         0/12 fast (Svallfors)
         0/4 fast (Other)
 
-        0/20 slow (Kjellberg)
+        20/20 slow (Kjellberg)
         0/20 slow (Svallfors)
         0/6 slow (Other)
 
-        0/20 monotone (Kjellberg)
+        20/20 monotone (Kjellberg)
         0/20 monotone (Svallfors)
         0/6 monotone (Other)
     }
@@ -53,19 +53,19 @@ Jarvis
 
     Emotional variations
     {
-        0/12 excited (Kjellberg)
+        12/12 excited (Kjellberg)
         0/12 excited (Svallfors)
         0/4 excited (Other)
 
-        0/12 tired (Kjellberg)
+        12/12 tired (Kjellberg)
         0/12 tired (Svallfors)
         0/4 tired (Other)
 
-        0/12 annoyed (Kjellberg)
+        12/12 annoyed (Kjellberg)
         0/12 annoyed (Svallfors)
         0/4 annoyed (Other)
 
-        0/12 questioning (Kjellberg)
+        12/12 questioning (Kjellberg)
         0/12 questioning (Svallfors)
         0/4 questioning (Other)
     }
@@ -95,78 +95,78 @@ Jarvis
 
 Service
 {
-    0/10 (Kjellberg)
-    0/10 (Svallfors)
+    0/20 (Kjellberg)
+    0/20 (Svallfors)
     0/3 (Other)
 }
 
 Harvest
 {
-    0/10 (Kjellberg)
-    0/10 (Svallfors)
+    0/20 (Kjellberg)
+    0/20 (Svallfors)
     0/3 (Other)
 }
 
 Garbage
 {
-    0/10 (Kjellberg)
-    0/10 (Svallfors)
+    0/20 (Kjellberg)
+    0/20 (Svallfors)
     0/3 (Other)
 }
 
 Jar
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/20 (Kjellberg)
+    0/20 (Svallfors)
     0/5 (Other)
 }
 
 Jag har
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/20 (Kjellberg)
+    0/20 (Svallfors)
     0/5 (Other)
 }
 
 Jag vill
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/25 (Kjellberg)
+    0/25 (Svallfors)
     0/5 (Other)
 }
 
 Javisst
 {
-    0/20 (Kjellberg)
-    0/20 (Svallfors)
+    0/25 (Kjellberg)
+    0/25 (Svallfors)
     0/10 (Other)
 }
 
 Jag var
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/25 (Kjellberg)
+    0/25 (Svallfors)
     0/5 (Other)
 }
 
 Jag är
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/25 (Kjellberg)
+    0/25 (Svallfors)
     0/5 (Other)
 }
 
 Jaja
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/25 (Kjellberg)
+    0/25 (Svallfors)
     0/5 (Other)
 }
 
 Jävlar
 {
-    0/15 (Kjellberg)
-    0/15 (Svallfors)
+    0/25 (Kjellberg)
+    0/25 (Svallfors)
     0/5 (Other)
 }
 

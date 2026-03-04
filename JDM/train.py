@@ -1,5 +1,5 @@
 
-from JDM.data_loader import extract_mfcc, load_audio
+from data_loader import extract_mfcc, load_audio
 from data_loader import load_dataset
 import numpy as np
 from model import build_model
@@ -21,24 +21,13 @@ model.compile(
 print("Training...")
 model.fit(X, y, epochs=20, batch_size=32)
 
-model.save("models/first_model.keras")
+model.save("JDM/models/first_model.keras")
 
 
 ############################ TESTING ############################
 
 
 print("\nTesting on a few samples... NOTE: 1 = not a keyword")
-
-
-
-
-sample = extract_mfcc(
-    load_audio("dataset/jarvis_similar/jarvis_similar_0001.wav")
-)
-sample = sample[..., np.newaxis]
-sample = sample[np.newaxis, ...]
-print("True Value:\t\t1")
-print("Predicted Value:\t", model.predict(sample, verbose=0)[0])
 
 sample = extract_mfcc(
     load_audio("dataset/jarvis/jarvis_0001.wav")

@@ -1,7 +1,7 @@
 
 import tensorflow as tf
 
-def build_model(input_shape=(49, 40, 1), num_classes=2):
+def build_model(input_shape=(49, 15, 1), num_classes=2):
     model = tf.keras.Sequential([
         tf.keras.layers.Input(shape=input_shape),
 
